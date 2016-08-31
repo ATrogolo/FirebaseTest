@@ -1,0 +1,62 @@
+@import 'normalize.css';
+body {
+  font-family: Helvetica, Arial;
+  font-size: 14px;
+  padding: 0 10px;
+}
+.database-container {
+  color: red;
+}
+.database-container > #dataEntry {
+  color: blue;
+}
+#userAuth > .title {
+  color: #606060;
+  text-align: center;
+}
+#userAuth > .login {
+  border: 1px solid #FFD737;
+  border-radius: 5px;
+}
+#userAuth > .login > h3,
+#userAuth > .login > form {
+  text-align: center;
+}
+#userAuth > .login label {
+  width: 30%;
+  vertical-align: middle;
+  padding-right: 5px;
+  display: table-cell;
+}
+#userAuth > .login button {
+  padding: 6px 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+  background: #FFD737;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+#userAuth .auth-result {
+  text-align: center;
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-size: .9em;
+}
+#userAuth .auth-result.fail {
+  color: red;
+}
+#userAuth .auth-result.success {
+  color: green;
+}
+.vertical-padded {
+  padding: 5px 0;
+}
+.table-full {
+  display: table;
+  width: 100%;
+}
+.cell-full {
+  display: table-cell;
+  width: 100%;
+}

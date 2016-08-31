@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <link rel="stylesheet" href="styles/firebase.css">
+  </head>
+  <body>
+    <h1>Firebase test</h1>
+
+    <div id="dbContainer" class="database-container">Data container
+      <div id="dataEntry">
+        <h3>Shelf1 books</h3>
+        <ul></ul>
+      </div>
+    </div>
+
+    <div id="userAuth">
+      <h3 class="title">Authentication section:</h3>
+      <div class="login">
+        <h3>Login with password</h3>
+        <div class="auth-result"></div>
+        <form class="login-form">
+          <div class="table-full vertical-padded">
+            <label for="username" class="cell user-profile-label">Username:</label>
+            <div class="cell-full">
+              <input type="text" id="username" name="username" placeholder="Inserisci il tuo username"/>
+            </div>
+          </div>
+          <div class="table-full vertical-padded">
+            <label for="password" class="cell user-profile-label">Password:</label>
+            <div class="cell-full">
+              <input type="password" id="password" name="password" placeholder="Inserisci la password" type="password"/>
+            </div>
+          </div>
+        <button class="login-btn">Firebase Login</button>
+        <button class="logout-btn" style="display: none;">Firebase Logout</button>
+      </form>
+      </div>
+    </div>
+
+  </body>
+  <script type="text/javascript" src="bower_components/firebase/firebase.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
+  <script type="text/javascript" src="index.js"></script>
+</html>
