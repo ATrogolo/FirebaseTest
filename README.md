@@ -1,4 +1,4 @@
-# FirebaseTest
+# ![Firebase logo](https://firebase.google.com/_static/42b115a0e2/images/firebase/logo.png) FirebaseTest
 
 This is a simple test with :fire:base which has a study purpose.
 The matter is simple: understand what is able to do a _realtime distributed NoSQL database_, which recently acquired by Google, who can send global updates about data to all subscribers.
