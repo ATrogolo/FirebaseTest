@@ -19,7 +19,9 @@ Create a simple connection to the database using:
 
 ## Usage
 ### Get element reference
-`var collection = db.child('students');`
+``` javascript
+var collection = db.child('students');
+```
 
 ### Write data
 To perform a database write there are 4 methods: set(), update(), transition() e push().
